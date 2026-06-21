@@ -78,9 +78,58 @@ Alert Generation & Output Visualization
 Due to GitHub file size limitations, full demo videos and validation outputs are hosted externally.
 
 🔗 **Google Drive Link:**  
-(Add your Google Drive link here)
+(https://drive.google.com/drive/folders/1_86OCKiXSZQ5fyTG6lTRFVley-NDtwDm?usp=sharing)
 
 ---
 
 ## Folder Structure
+
+```text
+AI-POWERED-CCTV-THAT-DETECTS-FIGHTS-ACCIDENTS-AND-WEAPONS/
+
+│
+├── ACCIDENT DETECTION/
+│   │
+│   ├── ML part/
+│   │   ├── detecting_static.py
+│   │   ├── detecting_videostream.py
+│   │   ├── detection.py
+│   │   ├── training.py
+│   │   └── env_vars.py
+│   │
+│   ├── Web Part/
+│   │   ├── app.py
+│   │   ├── templates/
+│   │   └── static/
+│   │
+│   ├── RaspberryPi/
+│   │   └── BUZZ_LED.py
+│   │
+│   └── requirements.txt
+│
+├── VIOLENCE AND WEAPONS DETECTION/
+│   │
+│   ├── violence_detection/
+│   │   ├── MobileNet-Bi-LSTM.ipynb
+│   │   ├── model files
+│   │   └── detection scripts
+│   │
+│   └── weapon_detection/
+│       ├── YOLOv7.ipynb
+│       ├── configuration files
+│       └── detection files
+│
+├── WEAPON DETECTION/
+│   └── weapon_detection.txt
+│
+├── OUTPUTS/
+│
+├── REPORT/
+│
+├── integrated.py
+│
+├── README.md
+│
+└── requirements.txt
+```
 
